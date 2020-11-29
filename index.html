@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyPizza</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img class="logo" src="img/logo.svg" alt="">
+        </a>
+        <ul class="nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Главная</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#catalog">Каталог</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#product">Продукты</a>
+            </li>
+        </ul>
+        <div class="cart"></div>
+    </header>
+
+
+    <main>
+        <div class="home-page" id="">
+            <div class="slider">
+                <img class="left-arrow" src="img/arrow.png" alt="">
+                <div class="slide-content">
+                    <div class="slide-img-cont">
+                        <img class="slide-img" src="img/slider1.jpg" style="left: 0%;" alt="">
+                    </div>
+                    <div class="slide-img-cont">
+                        <img class="slide-img" src="img/slider2.jpg" style="left: 100%;" alt="">
+                    </div>
+                </div>
+                <img class="right-arrow" src="img/arrow.png" alt="">  
+            </div>
+            <h1>Рекоендованные товары</h1>
+            <div class="recomended-products">
+                <div class="card product-list" id="product1">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product2">
+                    <img class="card-img-top" src="img/product-list2.jpg" alt="">
+                    <h5 class="card-title">Пицца Маргарита</h5>
+                    <p class="card-text">Моцарелла, Соус Domino's</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product3">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">124 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product4">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="catalog hidden" id="catalog">
+            <h1>Пицца: Классические</h1>
+            <div class="recomended-products">
+                <div class="card product-list" id="product1">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product2">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product3">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <h1>Пицца: Фирменные</h1>
+            <div class="recomended-products">
+                <div class="card product-list" id="product4">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product5">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product6">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product7">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product8">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <h1>Пицца: Легенды</h1>
+            <div class="recomended-products">
+                <div class="card product-list" id="product9">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product10">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product11">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product12">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product13">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product14">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <h1>Пицца: Премиум</h1>
+            <div class="recomended-products">
+                <div class="card product-list" id="product15">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+                <div class="card product-list" id="product16">
+                    <img class="card-img-top" src="img/product-list1.jpg" alt="">
+                    <h5 class="card-title">Пицца Пепперони с томатами</h5>
+                    <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+                    <button class="btn btn-link more">Подробнее</button>
+                    <div class="row">
+                        <p class="card-text col-sm-6 price">93 грн</p>
+                        <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="link-block">
+            <div class="link-column">
+                <h4>MyPizza</h4>
+                    <p class="link">Меню</p>
+                    <p class="link">Пиццерии</p>
+                    <p class="link">Франчайзинг</p>
+            </div>
+
+            <div class="link-column">
+                <h4>СЕРВИСЫ</h4>
+                    <p class="link">Pizza Tracker</p>
+            </div>
+
+            <div class="link-column">
+                <h4>КОНТАКТЫ</h4>
+                    <p class="link">111@222.com</p>
+                    <p class="link">1234567890</p>
+            </div>
+
+            <div class="link-column">
+                <a href="#">
+                    <img class="logo" src="img/logo.svg" alt="">
+                </a>
+            </div>
+        </div>
+
+    </footer>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
