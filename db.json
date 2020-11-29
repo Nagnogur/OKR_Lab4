@@ -6,7 +6,7 @@
       "price": 93,
       "images": "img/products/product1.jpg",
       "weight": 250,
-      "ingredients": [],
+      "ingredients": [0, 1, 2, 3],
       "spicy": false,
       "categoryId": 1,
       "recommended": true
@@ -17,7 +17,7 @@
         "price": 124.99,
         "images": "img/products/product2.jpg",
         "weight": 250,
-        "ingredients": [],
+        "ingredients": [0, 4],
         "spicy": false,
         "categoryId": 1,
         "recommended": true 
@@ -45,5 +45,21 @@
       "description": "Детали акции ... ",
       "datePosted": "25.02.2020"
     }],
-    "orders": []
+    "orders": [],
+    "ingredients":[{
+        "name": "Моцарелла",
+        "image": "mozzarella.png"
+    },{
+        "name": "Пепперони",
+        "image": "Pepperoni.jpg"
+    },{
+        "name": "Помидоры",
+        "image": "tomato.png"
+    },{
+        "name": "Соус Барбекю",
+        "image": "соус_ббк.png"
+    },{
+        "name": "Соус Domino's",
+        "image": "соус_доминос.png"
+    }]
   }
