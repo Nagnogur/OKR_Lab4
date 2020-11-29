@@ -1,0 +1,49 @@
+{
+    "products": [{
+      "url": "pizza_pepperoni",
+      "productName": "Pizza Pepperoni",
+      "productDescription": "Моцарелла, Пепперони, Помидоры, Соус Барбекю",
+      "price": 93,
+      "images": "img/products/product1.jpg",
+      "weight": 250,
+      "ingredients": [],
+      "spicy": false,
+      "categoryId": 1,
+      "recommended": true
+    }, {
+        "url": "pizza_Mozzarella",
+        "productName": "Pizza Mozzarella",
+        "productDescription": "Моцарелла, Соус Domino's",
+        "price": 124.99,
+        "images": "img/products/product1.jpg",
+        "weight": 250,
+        "ingredients": [],
+        "spicy": false,
+        "categoryId": 1,
+        "recommended": true 
+      }],
+
+    "productsCategories": [{
+      "url": "classic",
+      "name": "Классические"
+    }, {
+        "url": "branded",
+        "name": "Фирменные"
+      },
+      {
+        "url": "legend",
+        "name": "Легенды"
+      },
+      {
+        "url": "premium",
+        "name": "Премиум"
+      }],
+    "recommendations": [1, 2],
+    "actions": [{
+      "url": "privedi_druga",
+      "name": "Акция Приведи друга!",
+      "description": "Детали акции ... ",
+      "datePosted": "25.02.2020"
+    }],
+    "orders": []
+  }
