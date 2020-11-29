@@ -1,5 +1,7 @@
 import {GoToPage} from "./js/routing.js"
 
+GoToPage();
+/*
 let scrollPos = 0;
 let slide = 0;
 let leftSlider = document.getElementsByClassName("left-arrow")[0];
@@ -35,5 +37,5 @@ leftSlider.addEventListener("click", function(e){
     
     slider.style.transform = 'translateX(' + slide + 'px)';
 })
-
+*/
 window.addEventListener("hashchange", GoToPage);

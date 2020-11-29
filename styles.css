@@ -126,3 +126,8 @@ main{
     -webkit-transition: none !important;
     transition: none !important;
 }
+
+.product-img{
+    height: 600px;
+    width: auto;
+}
