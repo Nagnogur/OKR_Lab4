@@ -232,6 +232,7 @@ main{
     -moz-animation: fadeInFromNone 2s ease-out;
     -o-animation: fadeInFromNone 2s ease-out;
     animation: fadeInFromNone 2s ease-out;
+    padding: 2px;
 }
 
 @-webkit-keyframes fadeInFromNone {
@@ -282,5 +283,26 @@ main{
     100% {
         display: block;
         opacity: 1;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 560px){
+    .recomended-products{
+        display: grid;
+        grid-gap: 50px;
+        position: relative;
+        grid-template-columns: repeat(2,minmax(200px,1fr));
+    }
+}
+
+@media (max-width: 560px){
+    .recomended-products{
+        display: grid;
+        grid-gap: 50px;
+        position: relative;
+        grid-template-columns: repeat(1,minmax(300px,1fr));
+    }
+    header{
+        height: 90px;
     }
 }

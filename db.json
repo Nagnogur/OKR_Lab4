@@ -59,7 +59,7 @@
         "productName": "Pizza Karri",
         "productDescription": "Курица, Cоус Карри, Лук, Ананас, Моцарелла",
         "price": 152.99,
-        "images": "img/products/product6jpg",
+        "images": "img/products/product6.jpg",
         "weight": 250,
         "ingredients": [6, 0],
         "spicy": false,

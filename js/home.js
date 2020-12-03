@@ -99,21 +99,21 @@ export function Catalog(){
         </div>
         <div class="card product-list" id="product2">
             <img class="card-img-top" src="img/product-list2.jpg" alt="">
-            <h5 class="card-title">Пицца Пепперони с томатами</h5>
-            <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
+            <h5 class="card-title">Пицца Маргарита</h5>
+            <p class="card-text">Моцарелла, Соус Domino's</p>
             <button class="btn btn-link more" id="pizza_Mozzarella">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price bold">93 грн</p>
+                <p class="card-text col-sm-6 price bold">124.99 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
         <div class="card product-list" id="product3">
-            <img class="card-img-top" src="img/product-list1.jpg" alt="">
-            <h5 class="card-title">Пицца Пепперони с томатами</h5>
-            <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
-            <button class="btn btn-link more" id="pizza_pepperoni">Подробнее</button>
+            <img class="card-img-top" src="img/product-list3.jpg" alt="">
+            <h5 class="card-title">Пицца Техас</h5>
+            <p class="card-text">Кукуруза, Лук, Грибы, Колбаски баварские, Моцарелла, Соус Барбекю</p>
+            <button class="btn btn-link more" id="pizza_Texas">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price bold">93 грн</p>
+                <p class="card-text col-sm-6 price bold">91.99 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
@@ -121,32 +121,32 @@ export function Catalog(){
     <h1>Пицца: Фирменные</h1>
     <div class="recomended-products">
         <div class="card product-list" id="product4">
-            <img class="card-img-top" src="img/product-list1.jpg" alt="">
-            <h5 class="card-title">Пицца Пепперони с томатами</h5>
-            <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
-            <button class="btn btn-link more" id="pizza_pepperoni">Подробнее</button>
+            <img class="card-img-top" src="img/product-list4.jpg" alt="">
+            <h5 class="card-title">Пицца Пепперони Блюз</h5>
+            <p class="card-text">Бергадер Блю, Моцарелла, Пепперони, Соус Альфредо</p>
+            <button class="btn btn-link more" id="pizza_Pepperoni_Blues">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price bold">93 грн</p>
+                <p class="card-text col-sm-6 price bold">91.99 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
         <div class="card product-list" id="product5">
-            <img class="card-img-top" src="img/product-list1.jpg" alt="">
-            <h5 class="card-title">Пицца Пепперони с томатами</h5>
-            <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
-            <button class="btn btn-link more" id="pizza_pepperoni">Подробнее</button>
+            <img class="card-img-top" src="img/product-list5.jpg" alt="">
+            <h5 class="card-title">Пицца Кантри</h5>
+            <p class="card-text">Лук, Бекон, Ветчина, Грибы, Моцарелла, Огурцы маринованные, Соус Чесночный</p>
+            <button class="btn btn-link more" id="pizza_Country">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price bold">93 грн</p>
+                <p class="card-text col-sm-6 price bold">152.99 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
         <div class="card product-list" id="product6">
-            <img class="card-img-top" src="img/product-list1.jpg" alt="">
-            <h5 class="card-title">Пицца Пепперони с томатами</h5>
-            <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
-            <button class="btn btn-link more" id="pizza_pepperoni">Подробнее</button>
+            <img class="card-img-top" src="img/product-list6.jpg" alt="">
+            <h5 class="card-title">Пицца Карри</h5>
+            <p class="card-text">Курица, Cоус Карри, Лук, Ананас, Моцарелла</p>
+            <button class="btn btn-link more" id="pizza_Karri">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price bold">93 грн</p>
+                <p class="card-text col-sm-6 price bold">152.99 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
