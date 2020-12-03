@@ -161,7 +161,7 @@ export function Order() {
       });
       
       let result = await response.json();
-      alert(result.message);
+      location.hash = "#order/" + result.id;
     })
     Products();
 }

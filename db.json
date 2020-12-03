@@ -21,6 +21,50 @@
         "spicy": false,
         "categoryId": 1,
         "recommended": true 
+      }, {
+        "url": "pizza_Texas",
+        "productName": "Pizza Texas",
+        "productDescription": "Кукуруза, Лук, Грибы, Колбаски баварские, Моцарелла, Соус Барбекю",
+        "price": 91.99,
+        "images": "img/products/product3.jpg",
+        "weight": 250,
+        "ingredients": [5, 6, 7, 8, 0, 3],
+        "spicy": false,
+        "categoryId": 1,
+        "recommended": true 
+      }, {
+        "url": "pizza_Pepperoni_Blues",
+        "productName": "Pizza Pepperoni Blues",
+        "productDescription": "Бергадер Блю, Моцарелла, Пепперони, Соус Альфредо",
+        "price": 91.99,
+        "images": "img/products/product4.jpg",
+        "weight": 250,
+        "ingredients": [0, 1],
+        "spicy": false,
+        "categoryId": 1,
+        "recommended": true 
+      }, {
+        "url": "pizza_Country",
+        "productName": "Pizza Country",
+        "productDescription": "Лук, Бекон, Ветчина, Грибы, Моцарелла, Огурцы маринованные, Соус Чесночный",
+        "price": 152.99,
+        "images": "img/products/product5.jpg",
+        "weight": 250,
+        "ingredients": [6, 7, 0],
+        "spicy": false,
+        "categoryId": 1,
+        "recommended": true 
+      }, {
+        "url": "pizza_Karri",
+        "productName": "Pizza Karri",
+        "productDescription": "Курица, Cоус Карри, Лук, Ананас, Моцарелла",
+        "price": 152.99,
+        "images": "img/products/product6jpg",
+        "weight": 250,
+        "ingredients": [6, 0],
+        "spicy": false,
+        "categoryId": 1,
+        "recommended": true 
       }],
 
     "productsCategories": [{
@@ -59,6 +103,18 @@
     },{
         "name": "Соус Domino's",
         "image": "соус_доминос.png"
+    },{
+      "name": "Кукуруза",
+      "image": "kukurudza.jpeg"
+    },{
+      "name": "Лук",
+      "image": "Onions.jpg"
+    },{
+      "name": "Грибы",
+      "image": "shampinony.png"
+    },{
+      "name": "Колбаски баварские",
+      "image": "ohotnichi-kolbaski.jpg"
     }],
     "orders":[]
 }
