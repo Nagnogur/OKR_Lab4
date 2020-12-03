@@ -39,3 +39,9 @@ leftSlider.addEventListener("click", function(e){
 })
 */
 window.addEventListener("hashchange", GoToPage);
+
+let cart = document.getElementsByClassName("cart")[0];
+cart.addEventListener("click", function() {
+    document.location.hash = "#cart";
+});
+

@@ -11,11 +11,13 @@ export async function GetProduct(num){
     } else {
       alert("Ошибка HTTP: " + response.status);
     }
+    let i = 0;
     for (const e of json) {
         if (e.url == num){
-            Product(e);
+            Product(e, i);
             return e;
         }
+        i++;
     }
 }
 
@@ -91,7 +93,7 @@ export function Catalog(){
             <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
             <button class="btn btn-link more" id="pizza_pepperoni">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price">93 грн</p>
+                <p class="card-text col-sm-6 price bold">93 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
@@ -101,7 +103,7 @@ export function Catalog(){
             <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
             <button class="btn btn-link more" id="pizza_Mozzarella">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price">93 грн</p>
+                <p class="card-text col-sm-6 price bold">93 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
@@ -111,7 +113,7 @@ export function Catalog(){
             <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
             <button class="btn btn-link more" id="pizza_pepperoni">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price">93 грн</p>
+                <p class="card-text col-sm-6 price bold">93 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
@@ -124,7 +126,7 @@ export function Catalog(){
             <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
             <button class="btn btn-link more" id="pizza_pepperoni">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price">93 грн</p>
+                <p class="card-text col-sm-6 price bold">93 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
@@ -134,7 +136,7 @@ export function Catalog(){
             <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
             <button class="btn btn-link more" id="pizza_pepperoni">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price">93 грн</p>
+                <p class="card-text col-sm-6 price bold">93 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
@@ -144,7 +146,7 @@ export function Catalog(){
             <p class="card-text">Моцарелла, Пепперони, помидоры, Соус Барбекю</p>
             <button class="btn btn-link more" id="pizza_pepperoni">Подробнее</button>
             <div class="row">
-                <p class="card-text col-sm-6 price">93 грн</p>
+                <p class="card-text col-sm-6 price bold">93 грн</p>
                 <button class="col-sm-5 to-cart btn btn-danger">В корзину</button>
             </div>
         </div>
