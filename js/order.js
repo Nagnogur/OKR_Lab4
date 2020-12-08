@@ -162,6 +162,7 @@ export function Order() {
       
       let result = await response.json();
       location.hash = "#order/" + result.id;
+      localStorage.setItem("cart", null);
     })
     Products();
 }
